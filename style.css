@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+.container {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #161617dd;
+    height: 44px;
+    width: 100%;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header-nav {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-link {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF80;
+    transition: 300ms all ease;
+}
+
+.header-link:hover {
+    transition: 300ms all ease;
+    color: #FFFFFF;
+}
+
+.header-svg {
+    transition: 300ms all ease;
+    fill: #FFFFFF80;
+    cursor: pointer;
+}
+
+.header-svg:hover {
+    transition: 300ms all ease;
+    fill: white;
+    cursor: pointer;
+}
+
+.section-1 {
+    background-color: black;
+}
+
+.main-1-hero-1 {
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    max-width: 100%;
+}
+
+.main-1-item {
+    font-family: "inter";
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 917px;
+    margin: 0 auto;
+}
+
+.main-1-btn {
+    width: 186px;
+    height: 56px;
+    border: 2px solid white;
+    border-radius: 980px;
+    background: transparent;
+    color: white;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    transition: 300ms all ease;
+}
+
+.main-1-btn:hover {
+    transition: 300ms all ease;
+    background: white;
+    color: black;
+}
+
+.section-2 {
+    background-image: url(./indexImages/Picture\ →\ iphone_16_pro__dbqs3s14emky_large.jpg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1164px;
+    width: 100%;
+    padding-top: 300px;
+}
+
+.main-2-item{
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 62px;
+    color: white;
+    text-align: center;
+}
+
+.main-2-img-1{
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    top: 1280px;
+    left: 425px;
+}
