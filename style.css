@@ -116,7 +116,7 @@
     padding-top: 300px;
 }
 
-.main-2-item{
+.main-2-item {
     font-family: "inter";
     font-weight: 600;
     font-size: 62px;
@@ -124,10 +124,316 @@
     text-align: center;
 }
 
-.main-2-img-1{
+.main-2-img-1 {
     display: flex;
     margin: 0 auto;
     position: absolute;
     top: 1280px;
     left: 425px;
+}
+
+.main-2-texts-box {
+    padding-top: 405px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-2-text-1 {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 22.88px;
+    color: #FFFFFF80;
+    width: 779px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-2-text-2 {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: #FAFAFC;
+    width: 189px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-2-text-3 {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: #FAFAFC;
+    padding-top: 10px;
+}
+
+.main-2-btn {
+
+    width: 148px;
+    height: 56px;
+    border: 2px solid white;
+    border-radius: 980px;
+    background: transparent;
+    color: white;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 17px;
+    transition: 300ms all ease;
+}
+
+.main-2-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 300ms all ease-in;
+}
+
+.main-2-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.section-3 {
+    background: linear-gradient(to bottom, #0C1247 0%, #30337D 18%, #505DAD 33%, #7D8ED1 49%, #AEBCE6 73%, #FAFAFC 100%);
+    height: 1000px;
+    width: 100%;
+}
+
+.main-3-item {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 62.25px;
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 95px;
+}
+
+.main-3-item-img {
+    position: relative;
+    left: 290px;
+    bottom: 30px;
+}
+
+.main-3-iphone-img {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.main-3-text-box {
+    padding-top: 70px;
+}
+
+.main-3-text-1 {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 23.06px;
+    color: #1E1E1E;
+    text-align: center;
+    margin: 0 auto;
+    width: 682px;
+}
+
+.main-3-text-2 {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: #1D1D1F;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main-3-text-3 {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: #1D1D1F;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.main-3-btn {
+
+    width: 148px;
+    height: 56px;
+    border: 2px solid black;
+    border-radius: 980px;
+    background: transparent;
+    color: black;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 17px;
+    transition: 300ms all ease;
+}
+
+.main-3-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.main-3-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.section-4 {
+    background-color: white;
+    height: 1015px;
+    padding-top: 83px;
+    position: relative;
+}
+
+.main-4-head-img {
+    display: flex;
+    justify-content: baseline;
+    margin: 0 auto;
+
+}
+
+.main-4-text-1 {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 23.06px;
+    color: #6E6E73;
+    text-align: center;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main-4-text-2 {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.main-4-btn {
+
+    width: 148px;
+    height: 56px;
+    border: 2px solid black;
+    border-radius: 980px;
+    background: transparent;
+    color: black;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 17px;
+    transition: 300ms all ease;
+}
+
+.main-4-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 300ms all ease;
+}
+
+.main-4-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.main-4-watch-img {
+    width: 100%;
+    position: relative;
+    top: 192px;
+
+}
+
+.section-5 {
+    background-color: black;
+    height: 1220px;
+    width: 100%;
+    padding-top: 83px;
+}
+
+.main-5-head-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-5-watch-img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 215px;
+}
+
+.main-5-text-1 {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 23.06px;
+    color: #86868B;
+    text-align: center;
+    width: 613px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main-5-text-2 {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 17px;
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.main-5-btn {
+    width: 148px;
+    height: 56px;
+    border: 2px solid white;
+    border-radius: 980px;
+    background: transparent;
+    color: white;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 17px;
+    transition: 300ms all ease;
+}
+
+.main-5-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 300ms all ease;
+}
+
+.main-5-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.section-6 {
+    background-color: white;
+    height: 940px;
+    width: 100%;
+
+    background-image: url(./indexImages/Picture\ →\ airpods_4__bmm7k3ocqng2_large.jpg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.main-6-item{
+    font-family: "inter";
 }
